@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "ProgressHUD",
-            type: .static,
+            type: .dynamic,
             targets: ["ProgressHUD"]),
     ],
     targets: [
